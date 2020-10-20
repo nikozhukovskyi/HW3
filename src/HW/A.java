@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 public class A {
     public static void a_me() throws IOException {
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Input number: ");
         int number = Integer.parseInt(br.readLine());
