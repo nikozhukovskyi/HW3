@@ -1,6 +1,15 @@
-public class EightyEight {
-    public static void main(String[] args) {
+import HW.A;
 
-        System.out.println("123");
+import java.io.IOException;
+
+
+public class EightyEight {
+    public static void main(String[] args) throws IOException {
+
+            A q = new A();
+            q.a_me();
+
     }
+
 }
+
