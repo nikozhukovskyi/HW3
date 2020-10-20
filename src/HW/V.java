@@ -3,9 +3,7 @@ package HW;
 import java.util.Scanner;
 
 public class V {
-//    public static void main(String[] args) throws Exception {
-//        v_me();
-//    }
+
     public static void v_me() throws Exception{
         int tmp, decimal, n;
         int [] numBox;
@@ -36,6 +34,7 @@ public class V {
             for (int i = decimal - 1; i >= 0 ; i--) {
                 System.out.print(numBox[i]);
             }
+            System.out.println("");
         }
     }
 
