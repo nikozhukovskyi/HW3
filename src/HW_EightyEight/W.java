@@ -1,4 +1,4 @@
-package HW;
+package HW_EightyEight;
 
 import java.io.BufferedReader;
 import java.io.IOException;
